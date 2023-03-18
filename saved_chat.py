@@ -1,5 +1,5 @@
 #chat history list
-chat_history = []  # list to store chat messages
+chat_history = []  
 
 #function to safe chat in chathystory file
 def text_saver(data_list, filename):
