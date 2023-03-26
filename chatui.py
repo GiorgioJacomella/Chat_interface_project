@@ -12,7 +12,7 @@ def update_chat_history():
     show_chat_history.config(text="\n".join(saved_chat.chat_history))  # update label with all messages in chat history
     saved_chat.text_saver(saved_chat.chat_history, 'chathistory_file.txt') #safe new chats in chathistory
 
-#textlabel abrufen
+#call textlabel
 show_chat_history = tk.Label(root, text="", font=('Arial', 14), anchor='nw', justify='left')
 show_chat_history.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
 
